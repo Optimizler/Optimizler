@@ -1,7 +1,21 @@
 @echo off
 title %time%
-title Initializing...
+title Make a restore point before running.
 color 0c
+cls
+echo Make a restore point before running... (Press any key 3 times to run.)
+echo.
+echo.
+echo.
+pause >nul
+cls
+echo 1
+pause >nul
+echo 2
+pause >nul
+echo 3. Running...
+timeout /t 2 /nobreak >nul
+cls
 ipconfig /flushdns
 ipconfig /renew
 ipconfig /registerdns
