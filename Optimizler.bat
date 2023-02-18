@@ -115,12 +115,6 @@ reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProf
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" /v "SystemResponsiveness" /t REG_DWORD /d "0" /f
 title Optimizler doing things. :)
 cls
-echo C:\Windows\System32>End my suffering. please
-timeout /t 1 /nobreak >nul
-cls
-echo "End my suffering. please" doesn't exist, maybe you should do something about it... :D
-timeout /t 3 /nobreak >nul
-cls
 ipconfig /flushdns
 ipconfig /registerdns
 cls
