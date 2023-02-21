@@ -1,4 +1,5 @@
 @echo off
+bcdedit /deletevalue increaseuserva
 title %time%
 title Make a restore point before running.
 color 0c
@@ -147,17 +148,3 @@ cls
 echo 5! Restarting...
 timeout /t 3 /nobreak >nul
 shutdown -r -t 10 -c "Applying Changes..."
-cls
-echo @@@@@
-echo @@
-echo @@  :)
-echo @@
-timeout /t 1 /nobreak >nul
-cls
-echo @@@@@
-echo @@ @@
-echo @@ @@          :D
-echo @@@@@
-timeout /t 3 /nobreak >nul
-cls
-exit
