@@ -1,6 +1,5 @@
 @echo off
 bcdedit /deletevalue increaseuserva
-title Make a restore point before running.
 color 0c
 cls
 echo Make a restore point before running... (Press any key 3 times to run.)
@@ -18,9 +17,10 @@ timeout /t 2 /nobreak >nul
 cls
 title Optimizler V0.01 (The Start...)
 ipconfig /flushdns
+cls
 ipconfig /renew
 ipconfig /registerdns
-ipconfig /release
+cls
 ipconfig /flushdns
 netsh winsock reset
 reg add "HKCU\Control Panel\Desktop" /v MenuShowDelay /d 0 /f /reg:64
@@ -29,7 +29,6 @@ del *.log /a /s /q /f
 del *.tmp /a /s /q /f
 del *.pf /a /s /q /f
 powercfg -setactive 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c
-powercfg -setactive f53a6f50-f0a7-4d3b-87b1-97eaf85ed8d3
 powercfg -h off
 bcdedit /set increaseuserva 8000
 reg delete "HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection" /v AllowTelemetry /f /reg:64
@@ -119,17 +118,22 @@ cls
 ipconfig /flushdns
 ipconfig /registerdns
 cls
-echo If the DISM command always stays at 0% then just close this window since It's just a waste of time...
-timeout /t 10 /nobreak >nul
 sfc /scannow
 cls
+echo If the DISM command always stays at 0% then just close this window since It's just a waste of time...
+echo.
+echo.
+echo.
 dism /online /cleanup-image /restorehealth
+echo.
+echo.
+echo.
 cls
 echo Done optimizing, press any key 5 times to restart so that you can finish applying the changes...
 echo.
 echo ----------------------------------------------------
 echo.
-echo https://github.com/Optimizler/Optimizler
+echo Issues : https://github.com/Optimizler/Optimizler/issues
 echo.
 pause >nul
 echo 1
