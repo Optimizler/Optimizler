@@ -1,6 +1,5 @@
 @echo off
 bcdedit /deletevalue increaseuserva
-title %time%
 title Make a restore point before running.
 color 0c
 cls
@@ -17,6 +16,7 @@ pause >nul
 echo 3. Running...
 timeout /t 2 /nobreak >nul
 cls
+title Optimizler V0.01 (The Start...)
 ipconfig /flushdns
 ipconfig /renew
 ipconfig /registerdns
