@@ -17,4 +17,4 @@ FAQ:
 - A: When you start up your PC, launch it then click maximum and just minimize it, don't close it.
 
 
-# Bye, see ya later! :)
+# See ya!
