@@ -1,5 +1,5 @@
 # Hi! :)
-Hi, I'm an individual working on Optimizler. This project is inspired by HoneCtrl and I'm also currently working on how to learn batch more...
+I'm an individual working on Optimizler. This project is inspired by HoneCtrl and I'm also currently working on how to learn batch more...
 I have made this to Optimize PCs and Laptops and hopefully tweak PCs or Laptops that were recently re-installed or were recently bought and are new.
 One thing:
 If you have a laptop then you might see lower battery life expectations but don't worry, you can make a restore point before running or you can just simply change the power plan by running powercfg.cpl and selecting the Balanced power plan.
@@ -16,12 +16,5 @@ FAQ:
 - Q: How can I use TimerResolution?
 - A: When you start up your PC, launch it then click maximum and just minimize it, don't close it.
 
-No one will ask this question but, I will make a custom website for this and I hope it comes out really well made.
-I will leave this cringy logo that I "made" here:
 
-
-
-- Logo:
-
-
-![optimizler-logo](https://user-images.githubusercontent.com/125686269/219865130-143615fa-3113-420b-b409-fadc5c434152.png)
+# Bye, see ya later! :)
