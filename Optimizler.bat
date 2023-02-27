@@ -1,6 +1,7 @@
 @echo off
 bcdedit /deletevalue increaseuserva
 color 0c
+title Optimizler
 cls
 echo Make a restore point before running... (Press any key 3 times to run.)
 echo.
