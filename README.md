@@ -1,4 +1,4 @@
-# Hi! :)
+# sup
 I'm an individual working on Optimizler. This project is inspired by HoneCtrl and I'm also currently working on how to learn batch more...
 I have made this to Optimize PCs and Laptops and hopefully tweak PCs or Laptops that were recently re-installed or were recently bought and are new.
 One thing:
@@ -12,9 +12,6 @@ FAQ:
 - Q: Can this completely destroy my PC or Laptop?
 - A: Only if your PC or Laptop is running on garbage like wtf???
 - Q: Will you update this Repository?
-- A: I will try to update this every day. :)
+- A: I will try to update this as much as I can! :) (Sometimes I get demotivated.)
 - Q: How can I use TimerResolution?
 - A: When you start up your PC, launch it then click maximum and just minimize it, don't close it.
-
-
-# See ya!
